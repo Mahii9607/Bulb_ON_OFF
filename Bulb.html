@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>HEllo js 🎭</title>
+</head>
+<body>
+    <img src ="https://jooinn.com/images/isolated-light-bulb-1.jpg" id="bulbswitch" style="height:100px;"
+    style="float:left;"/>
+
+    <button onclick="bulbswitch(1)" style="float: center;"class="bulbswitchbtn">ON</button>
+
+
+    <button onclick="bulbswitch(0)" style="float: center;"class=bulbswitchbtn>OFF</button>
+    <script>
+        
+        function bulbswitch(num){
+            const imgElement = document.getElementById("bulbswitch");
+            if(num==1){
+                imgElement.src ="http://www.pngall.com/wp-content/uploads/2016/03/Light-Bulb-PNG-File.png"   
+            }
+            else{
+            imgElement.src ="http://www.pngmart.com/files/1/Bulb-off-PNG-Transparent-Image.png"
+        }
+    }
+            
+        
+    </script>
+    
+</body>
+</html>
